@@ -18,7 +18,7 @@ const rows = [
 
 export default function ValueProposition() {
   return (
-    <section className="relative overflow-hidden border-b border-line">
+    <section className="bg-white relative overflow-hidden border-b border-line">
       <div
         aria-hidden
         className="absolute -left-24 bottom-0 h-[320px] w-[320px] rounded-full bg-blue/[0.06] blur-[110px]"

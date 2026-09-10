@@ -12,9 +12,9 @@ export default function RequestSection() {
             Need storage? Let&apos;s get your business moving.
           </h2>
           <p className="mt-5 text-ink/65">
-            Tell us what you need and our team will take it from there —
-            whether that&apos;s a facility tour or a tailored, costed
-            proposal built around your exact requirements.
+            Tell us what you need and our team will take it from there - whether
+            that&apos;s a facility tour or a tailored, costed proposal built
+            around your exact requirements.
           </p>
         </div>
         <div className="rounded-2xl border border-line bg-paper-dim p-8">

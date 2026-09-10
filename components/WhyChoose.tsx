@@ -20,7 +20,7 @@ const kpis = [
 
 export default function WhyChoose() {
   return (
-    <section className="border-b border-line">
+    <section className="bg-white border-b border-line">
       <div className="mx-auto max-w-6xl px-6 py-20">
         <div className="grid gap-14 md:grid-cols-2">
           <div>
