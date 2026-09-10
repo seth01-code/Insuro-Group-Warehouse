@@ -1,0 +1,75 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081240"/>
+      <stop offset="45%" stop-color="#0D1F5C"/>
+      <stop offset="100%" stop-color="#132A72"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4A9FE8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#4A9FE8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3E8EDD"/>
+      <stop offset="100%" stop-color="#0B56D0"/>
+    </linearGradient>
+    <linearGradient id="accentText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8FC3F4"/>
+      <stop offset="100%" stop-color="#4A9FE8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="960" cy="140" r="420" fill="url(#glow)"/>
+
+  <!-- subtle network nodes -->
+  <g fill="#4A9FE8" opacity="0.35">
+    <circle cx="120" cy="90" r="3"/>
+    <circle cx="200" cy="180" r="2.5"/>
+    <circle cx="90" cy="260" r="2"/>
+    <circle cx="1080" cy="500" r="3"/>
+    <circle cx="1010" cy="420" r="2"/>
+    <circle cx="1130" cy="380" r="2.5"/>
+    <circle cx="1000" cy="560" r="2"/>
+    <circle cx="150" cy="540" r="2.5"/>
+    <circle cx="60" cy="460" r="2"/>
+  </g>
+  <g stroke="#4A9FE8" stroke-width="1" opacity="0.15">
+    <line x1="120" y1="90" x2="200" y2="180"/>
+    <line x1="200" y1="180" x2="90" y2="260"/>
+    <line x1="1080" y1="500" x2="1010" y2="420"/>
+    <line x1="1010" y1="420" x2="1130" y2="380"/>
+    <line x1="150" y1="540" x2="60" y2="460"/>
+  </g>
+
+  <!-- shield mark -->
+  <g transform="translate(80,84)">
+    <path d="M60 6L108 32V78C108 118 86 148 60 164C34 148 12 118 12 78V32L60 6Z"
+          fill="url(#shield)" stroke="#4A9FE8" stroke-width="2.5"/>
+    <circle cx="60" cy="58" r="7" fill="white"/>
+    <circle cx="38" cy="94" r="7" fill="white"/>
+    <circle cx="82" cy="94" r="7" fill="white"/>
+    <path d="M60 58L38 94H82L60 58Z" fill="none" stroke="white" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- eyebrow -->
+  <g transform="translate(80,230)">
+    <circle cx="6" cy="-4" r="4" fill="#4A9FE8"/>
+    <text x="20" y="0" font-family="Inter, sans-serif" font-weight="600" font-size="15" letter-spacing="2.5" fill="#8FC3F4">SMART FULFILMENT · INSURO AFRICA</text>
+  </g>
+
+  <!-- headline -->
+  <text x="78" y="330" font-family="Fraunces, serif" font-weight="600" font-size="72" fill="#FFFFFF">Fulfilment infrastructure</text>
+  <text x="78" y="410" font-family="Fraunces, serif" font-weight="600" font-size="72" fill="url(#accentText)">built for Africa's scale.</text>
+
+  <!-- subcopy -->
+  <text x="80" y="470" font-family="Inter, sans-serif" font-weight="400" font-size="21" fill="#B7C3E0">Warehousing, real-time inventory, and SLA-driven order</text>
+  <text x="80" y="500" font-family="Inter, sans-serif" font-weight="400" font-size="21" fill="#B7C3E0">fulfilment for businesses scaling across Nigeria.</text>
+
+  <!-- divider -->
+  <line x1="80" y1="540" x2="1120" y2="540" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- footer row -->
+  <text x="80" y="580" font-family="Inter, sans-serif" font-weight="600" font-size="16" letter-spacing="1" fill="#FFFFFF">INSURO AFRICA GROUP</text>
+  <text x="1120" y="580" font-family="Inter, sans-serif" font-weight="400" font-size="16" fill="#7C8AB5" text-anchor="end">insuro.africa</text>
+</svg>

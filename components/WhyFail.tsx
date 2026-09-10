@@ -1,4 +1,11 @@
-import { Shuffle, EyeOff, Building2, AlertCircle, ShieldAlert, Waves } from "lucide-react";
+import {
+  Shuffle,
+  EyeOff,
+  Building2,
+  AlertCircle,
+  ShieldAlert,
+  Waves,
+} from "lucide-react";
 
 const reasons = [
   {
@@ -35,7 +42,7 @@ const reasons = [
 
 export default function WhyFail() {
   return (
-    <section className="border-b border-line">
+    <section className="bg-white border-b border-line">
       <div className="mx-auto max-w-6xl px-6 py-20">
         <h2 className="max-w-md font-display text-3xl font-bold text-ink">
           Why businesses fail to scale
@@ -50,9 +57,7 @@ export default function WhyFail() {
                 <Icon size={20} strokeWidth={1.75} />
               </span>
               <h3 className="mt-4 font-display font-bold text-ink">{title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-ink/65">
-                {body}
-              </p>
+              <p className="mt-2 text-sm leading-relaxed text-ink/65">{body}</p>
             </div>
           ))}
         </div>
