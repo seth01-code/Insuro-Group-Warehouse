@@ -16,7 +16,7 @@ const tiers = [
   {
     tier: "Tier 3",
     name: "Enterprise",
-    desc: "API integration + branded packaging + reverse fulfilment.",
+    desc: "Branded packaging + reverse fulfilment.",
     price: "Retainer + variable pricing",
     featured: false,
   },

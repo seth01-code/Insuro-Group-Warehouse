@@ -25,9 +25,8 @@ export default function Footer() {
             businesses building across Africa.
           </p>
           <p className="mt-6 text-sm leading-relaxed text-white/40">
-            Headquarters, Abuja
+            Headquarters, Lagos
             <br />
-            9.0765° N, 7.3986° E
           </p>
         </div>
 
@@ -76,7 +75,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Insuro Africa Group. All rights
             reserved.
           </p>
-          <p>Abuja, Nigeria. Pan-African operations.</p>
+          <p>Lagos, Nigeria. Pan-African operations.</p>
         </div>
       </div>
     </footer>

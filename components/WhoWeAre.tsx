@@ -34,7 +34,7 @@ export default function WhoWeAre() {
           <h2 className="font-display text-3xl font-bold text-white">
             Who we are
           </h2>
-          <p className="text-sm text-white/50">Abuja, Nigeria. Founded 2024.</p>
+          <p className="text-sm text-white/50">Lagos, Nigeria. Founded 2024.</p>
         </div>
 
         <div className="mt-14 grid gap-12 md:grid-cols-[2fr_3fr] md:gap-16">
@@ -49,14 +49,14 @@ export default function WhoWeAre() {
               />
             </div>
             <figcaption className="mt-3 text-sm text-white/40">
-              Headquarters, Abuja
+              Headquarters, Lagos
             </figcaption>
           </figure>
 
           <div>
             <p className="max-w-xl text-lg leading-relaxed text-white/70">
               Insuro Africa is a tech-driven fulfilment and logistics company
-              headquartered in Abuja, Nigeria, founded in 2024 by an industry
+              headquartered in Lagos, Nigeria, founded in 2024 by an industry
               leader in logistics and supply chain.
             </p>
 
